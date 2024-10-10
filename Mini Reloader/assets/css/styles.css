@@ -1,0 +1,145 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2c3e50;
+    margin: 0;
+    padding: 20px;
+    color: #ecf0f1;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Container Styling */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background: #34495e;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+  }
+  
+  /* Main Content Styling */
+  .main-content {
+    background: #2c3e50;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 28px;
+    color: #3498db;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input Group Styling */
+  .input-group input {
+    width: 100px;
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #555;
+    border-radius: 12px;
+    font-size: 16px;
+    text-align: center;
+    background: #3b4b5b;
+    color: #ecf0f1;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .input-group input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.4);
+    outline: none;
+  }
+  
+  /* Button Group Styling */
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 14px 32px;
+    margin: 8px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    color: white;
+    font-weight: 600;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Start Button */
+  button.start {
+    background: linear-gradient(135deg, #4caf50, #66bb6a);
+  }
+  
+  button.start:hover {
+    background: linear-gradient(135deg, #45a049, #5cb85c);
+    transform: scale(1.05);
+  }
+  
+  /* Stop Button */
+  button.stop {
+    background: linear-gradient(135deg, #f44336, #e57373);
+  }
+  
+  button.stop:hover {
+    background: linear-gradient(135deg, #e53935, #f57c7c);
+    transform: scale(1.05);
+  }
+  
+  button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+  }
+  
+  /* Preset Button Styling */
+  .preset-group {
+    margin-top: 20px;
+  }
+  
+  .preset-btn {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .preset-btn:hover {
+    background: linear-gradient(135deg, #2980b9, #1f6fb2);
+    transform: scale(1.05);
+  }
+  
+  /* Remaining Time Display */
+  #remaining-time {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ecf0f1;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Font Awesome Icon Styling */
+  button i {
+    margin-right: 10px;
+  }
+  
+  /* Dark Mode Toggle Button */
+  .dark-mode-toggle {
+    display: none; /* Hide dark mode toggle button */
+  }
+  
